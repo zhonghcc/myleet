@@ -15,8 +15,8 @@ public class Solution {
                 if(item > h[i]){
                     h[i]=item;
                 }
-                if(item > w[i]){
-                    w[i]=item;
+                if(item > w[j]){
+                    w[j]=item;
                 }
             }
         }
